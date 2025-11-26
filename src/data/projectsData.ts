@@ -43,6 +43,28 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/SUFIYAN-hub/Password-Manager",
     liveUrl: "https://password-manager-delta-smoky.vercel.app/",
     category: "Frontend"
+  },
+  {
+    id: 4,
+    title: "Werewolf Multiplayer Game",
+    description: "Play Werewolf online with friends while never missing a prayer! 🐺🕌 Accurate Islamic prayer times built-in.",
+    longDescription: "A multiplayer social deduction game where players work together to find hidden werewolves among villagers. Features real-time chat, special roles (Seer, Doctor, Hunter), and integrated Islamic prayer times that automatically pause gameplay. Play with friends using room codes in this exciting blend of strategy and deduction!",
+    image: "/images/projects/werewolf.jpg",
+    technologies: ["React", "Nodejs", "Tailwind CSS"],
+    githubUrl: "https://github.com/SUFIYAN-hub/werewolf-game",
+    liveUrl: "https://werewolf-game-rho.vercel.app/",
+    category: "Full Stack"
+  },
+  {
+    id: 5,
+    title: "Dental Clinic",
+    description: "A modern, responsive dental clinic management website built with React.js, featuring 10 pages including doctor profiles, gallery, testimonials, and online appointment booking.",
+    longDescription: "DentalCare Clinic Management is a fully responsive frontend web application designed to provide comprehensive digital presence for dental clinics. Built with React.js, the website features 10 interactive pages including an enhanced home page with doctor profiles, dedicated team page with professional images, gallery showcasing clinic facilities, patient testimonials with review submission, FAQ section with search functionality, and online appointment booking with validation. The application uses modern UI/UX design with gradient themes, smooth animations, and mobile-first responsive layout ensuring seamless experience across all devices.",
+    image: "/images/projects/dental.jpg",
+    technologies: ["React", "Tailwind CSS"],
+    githubUrl: "https://github.com/SUFIYAN-hub/dental-clinic-app",
+    liveUrl: "https://dental-clinic-app-eta.vercel.app/",
+    category: "Frontend"
   }
 ];
 
